@@ -3,12 +3,13 @@ html {
 }
 
 body {
-    background-color: #FFE8A2;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Fishers_peak.jpg/1200px-Fishers_peak.jpg) no-repeat top;
+    background-color: #ccccb3
 }
 
 h1 {
     font-weight: 900;
-    color: #5B1B00;
+    color: #000000;
     text-align: center;
     font-family: sans-serif;
     font-size: 50px;
@@ -19,36 +20,67 @@ nav ul{
     padding: 0;
 }
 
-ul {
-    text-align: center;
-}
-
-ul li{
+nav ul li{
     font-weight: 600;
     font-size: 30px;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding: 20px;
 }
 
-a {
+nav ul li a {
     text-decoration: none;
+    color: #000000;
+}
+
+#first {
+    margin-top: 300px;
 }
 
 section {
     text-align: center;
-    padding: 100px 0px 0px 0px;
+    margin-top: 150px;
 }
 
 main img {
     border: 2px solid #5B1B00;
 }
 
-main p {
+figcaption a {
+    text-decoration: none;
+}
+
+main section p {
     font-weight: 600;
     font-size: 20px;
-    margin: 0px 400px 0px 400px;
+    margin: 0px 100px;
+}
+
+#topbutton {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#topbutton button {
+    border-radius: 10px;
+    background-color: #6699cc;
+}
+
+#topbutton a {
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    color: #000000;
 }
 
 footer {
-    padding-top: 350px;
+    margin-top: 200px;
+}
+
+#footer {
+    font-family: serif;
+    font-style: italic;
+}
+
+p.footer {
+    font-family: serif;
 }
